@@ -1,13 +1,34 @@
-// Exercicios_Fixacao.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include "pch.h"
 #include <iostream>
+
+bool isPalindrome(int);
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int teste1 = 123454321;
+    int teste2 = 1234545321;
+    if (isPalindrome(teste1))
+        std::cout << "Is Palindrome";
+    else
+        std::cout << "Is not Palindrome";
+
+    return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+bool isPalindrome(int x)
+{
+    if (x < 0 || (x % 10 == 0 && x != 0))
+    {
+        return false;
+    }
+
+    if (!x)
+        return true;
+
+    int inversao{};
+    while (x > inversao)
+    {
+        inversao = inversao * 10 + x % 10;
+        x /= 10;
+    }
+    return x == inversao || x == inversao / 10;
+}
