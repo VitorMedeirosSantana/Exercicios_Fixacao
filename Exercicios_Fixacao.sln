@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercicios_Fixacao", "Exercicios_Fixacao\Exercicios_Fixacao.vcxproj", "{1C3F5CBE-8762-4319-9763-BAF58B4FF005}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facil", "Facil", "{AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumeroPalindromo", "Exercicio_1\Exercicio_1.vcxproj", "{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Two_Sum", "Two_Sum\Two_Sum.vcxproj", "{B72B61CE-A104-41BD-ADA3-57DF732618D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Verifica_Arvore_Binaria", "Verifica_Arvore_Binaria\Verifica_Arvore_Binaria.vcxproj", "{64138338-A690-4016-AF78-03F48698B004}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +19,38 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1C3F5CBE-8762-4319-9763-BAF58B4FF005}.Debug|x64.ActiveCfg = Debug|x64
-		{1C3F5CBE-8762-4319-9763-BAF58B4FF005}.Debug|x64.Build.0 = Debug|x64
-		{1C3F5CBE-8762-4319-9763-BAF58B4FF005}.Debug|x86.ActiveCfg = Debug|Win32
-		{1C3F5CBE-8762-4319-9763-BAF58B4FF005}.Debug|x86.Build.0 = Debug|Win32
-		{1C3F5CBE-8762-4319-9763-BAF58B4FF005}.Release|x64.ActiveCfg = Release|x64
-		{1C3F5CBE-8762-4319-9763-BAF58B4FF005}.Release|x64.Build.0 = Release|x64
-		{1C3F5CBE-8762-4319-9763-BAF58B4FF005}.Release|x86.ActiveCfg = Release|Win32
-		{1C3F5CBE-8762-4319-9763-BAF58B4FF005}.Release|x86.Build.0 = Release|Win32
+		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Debug|x64.ActiveCfg = Debug|x64
+		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Debug|x64.Build.0 = Debug|x64
+		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Debug|x86.ActiveCfg = Debug|Win32
+		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Debug|x86.Build.0 = Debug|Win32
+		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Release|x64.ActiveCfg = Release|x64
+		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Release|x64.Build.0 = Release|x64
+		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Release|x86.ActiveCfg = Release|Win32
+		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Release|x86.Build.0 = Release|Win32
+		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Debug|x64.ActiveCfg = Debug|x64
+		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Debug|x64.Build.0 = Debug|x64
+		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Debug|x86.ActiveCfg = Debug|Win32
+		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Debug|x86.Build.0 = Debug|Win32
+		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Release|x64.ActiveCfg = Release|x64
+		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Release|x64.Build.0 = Release|x64
+		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Release|x86.ActiveCfg = Release|Win32
+		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Release|x86.Build.0 = Release|Win32
+		{64138338-A690-4016-AF78-03F48698B004}.Debug|x64.ActiveCfg = Debug|x64
+		{64138338-A690-4016-AF78-03F48698B004}.Debug|x64.Build.0 = Debug|x64
+		{64138338-A690-4016-AF78-03F48698B004}.Debug|x86.ActiveCfg = Debug|Win32
+		{64138338-A690-4016-AF78-03F48698B004}.Debug|x86.Build.0 = Debug|Win32
+		{64138338-A690-4016-AF78-03F48698B004}.Release|x64.ActiveCfg = Release|x64
+		{64138338-A690-4016-AF78-03F48698B004}.Release|x64.Build.0 = Release|x64
+		{64138338-A690-4016-AF78-03F48698B004}.Release|x86.ActiveCfg = Release|Win32
+		{64138338-A690-4016-AF78-03F48698B004}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148} = {AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}
+		{B72B61CE-A104-41BD-ADA3-57DF732618D5} = {AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}
+		{64138338-A690-4016-AF78-03F48698B004} = {AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9658890-D046-4509-A302-CF12F5EE8496}
