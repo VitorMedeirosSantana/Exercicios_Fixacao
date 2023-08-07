@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facil", "Facil", "{AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumeroPalindromo", "Exercicio_1\Exercicio_1.vcxproj", "{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Two_Sum", "Two_Sum\Two_Sum.vcxproj", "{B72B61CE-A104-41BD-ADA3-57DF732618D5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Verifica_Arvore_Binaria", "Verifica_Arvore_Binaria\Verifica_Arvore_Binaria.vcxproj", "{64138338-A690-4016-AF78-03F48698B004}"
@@ -19,14 +17,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Debug|x64.ActiveCfg = Debug|x64
-		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Debug|x64.Build.0 = Debug|x64
-		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Debug|x86.ActiveCfg = Debug|Win32
-		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Debug|x86.Build.0 = Debug|Win32
-		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Release|x64.ActiveCfg = Release|x64
-		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Release|x64.Build.0 = Release|x64
-		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Release|x86.ActiveCfg = Release|Win32
-		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148}.Release|x86.Build.0 = Release|Win32
 		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Debug|x64.ActiveCfg = Debug|x64
 		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Debug|x64.Build.0 = Debug|x64
 		{B72B61CE-A104-41BD-ADA3-57DF732618D5}.Debug|x86.ActiveCfg = Debug|Win32
@@ -48,7 +38,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F65092F6-AC6F-43BD-8D4D-1EA8A27F4148} = {AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}
 		{B72B61CE-A104-41BD-ADA3-57DF732618D5} = {AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}
 		{64138338-A690-4016-AF78-03F48698B004} = {AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}
 	EndGlobalSection
