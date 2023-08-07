@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Two_Sum", "Two_Sum\Two_Sum.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Verifica_Arvore_Binaria", "Verifica_Arvore_Binaria\Verifica_Arvore_Binaria.vcxproj", "{64138338-A690-4016-AF78-03F48698B004}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindromo_inteiro", "Palindromo_inteiro\Palindromo_inteiro.vcxproj", "{05B4E95E-EAAB-4637-B33A-26A005F2EDA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,6 +35,14 @@ Global
 		{64138338-A690-4016-AF78-03F48698B004}.Release|x64.Build.0 = Release|x64
 		{64138338-A690-4016-AF78-03F48698B004}.Release|x86.ActiveCfg = Release|Win32
 		{64138338-A690-4016-AF78-03F48698B004}.Release|x86.Build.0 = Release|Win32
+		{05B4E95E-EAAB-4637-B33A-26A005F2EDA4}.Debug|x64.ActiveCfg = Debug|x64
+		{05B4E95E-EAAB-4637-B33A-26A005F2EDA4}.Debug|x64.Build.0 = Debug|x64
+		{05B4E95E-EAAB-4637-B33A-26A005F2EDA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{05B4E95E-EAAB-4637-B33A-26A005F2EDA4}.Debug|x86.Build.0 = Debug|Win32
+		{05B4E95E-EAAB-4637-B33A-26A005F2EDA4}.Release|x64.ActiveCfg = Release|x64
+		{05B4E95E-EAAB-4637-B33A-26A005F2EDA4}.Release|x64.Build.0 = Release|x64
+		{05B4E95E-EAAB-4637-B33A-26A005F2EDA4}.Release|x86.ActiveCfg = Release|Win32
+		{05B4E95E-EAAB-4637-B33A-26A005F2EDA4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B72B61CE-A104-41BD-ADA3-57DF732618D5} = {AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}
 		{64138338-A690-4016-AF78-03F48698B004} = {AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}
+		{05B4E95E-EAAB-4637-B33A-26A005F2EDA4} = {AE3844FA-5E3A-44AB-B6D8-C595CA97C98E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9658890-D046-4509-A302-CF12F5EE8496}
