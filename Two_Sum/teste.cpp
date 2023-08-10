@@ -8,7 +8,7 @@ vector<int> twoSum(vector<int>& num, int target);
 
 int main()
 {
-    vector<int> numeros{1,2,3,4,5,6,7};
+    vector<int> numeros{1,2,3,4,5,6,7,8};
     int target = 10;
     vector<int> result = twoSum(numeros, target);
 
