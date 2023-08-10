@@ -4,6 +4,12 @@ using namespace std;
 
 bool isPalindrome(int);
 
+/*
+
+Programa que encontra possiveis numeros inteiros palindromos 
+
+*/
+
 int main()
 {
 	int test1 = 123454321;
@@ -14,7 +20,6 @@ int main()
 	else
 		cout << "This number isn't Palindrome";
 }
-
 
 bool isPalindrome(int x)
 {

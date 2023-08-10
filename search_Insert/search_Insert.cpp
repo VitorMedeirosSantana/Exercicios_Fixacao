@@ -5,11 +5,19 @@ using namespace std;
 
 int searchInsert(vector<int>& nums, int target);
 
+/*
+
+Programa utilizado para pesquisar, dentro de um vetor de inteiros crescentes, um numero
+de maneira rapida, com menor gasto de memoria. Caso esse numero não exista, informar qual
+a posição ele deverá ser inserido dentro do vetor.
+
+*/
+
 int main()
 {
-    vector<int> numero{1,2,3,4,5,6,7,8,9,10};
-    int target = 5;
-    cout << searchInsert(numero, target);
+    vector<int> numero{1, 2, 4, 5, 6, 7, 8, 9, 10};
+    int target = 3;
+    cout << "A posicao do numero fica em:  numero[" << searchInsert(numero, target) << "]";
 }
 
 int searchInsert(vector<int>& nums, int target)
