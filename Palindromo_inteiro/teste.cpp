@@ -7,7 +7,7 @@ bool isPalindrome(int);
 int main()
 {
 	int test1 = 123454321;
-	int test2 = 123454545321;
+	int test2 = 1234546545321;
 
 	if (isPalindrome(test1))
 		cout << "This number is Palindrome";
