@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Verifica_Arvore_Binaria.cpp">
+    <ClCompile Include="BST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
